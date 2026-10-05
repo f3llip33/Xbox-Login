@@ -3,3 +3,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+footer{
+    width: 100%;
+    background-color: rgba(10, 12, 18, 0.6);
+    padding: 12px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+footer img{
+    height: 15px;
+    width: auto;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer a :hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
