@@ -30,24 +30,29 @@ main {
     background-color: #363636;
     padding: 44px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+    border-radius: 11px;
 }
 
 .card-main img {
     display: block;
-    width: 24px;
-    height: 24px;
-    margin-bottom: 26px;
+    width: 220px;
+    height: 97px;
+    margin-bottom: 10px;
+    margin-left: 60px;
 }
 
 .card-main h3 {
     font-size: 23px;
     font-weight: 600px;
     margin-bottom: 16px;
+    margin-left: 140px;
 }
 
 .card-main p {
+    margin-bottom: 20px;
     font-size: 15px;
     margin-bottom: 13px;
+    margin-left: 85px;
 }
 
 .card-main input {
@@ -55,11 +60,12 @@ main {
     height: 43px;
     padding: 8px 2px;
     border: none;
-    border-bottom: 1px solid #666;
+    border: 1px solid #666;
     outline: none;
     font-size: 15px;
     border-radius: 5px;
     margin-bottom: 18px;
+    background-color: #363636;
 }
 
 .card-main input:focus {
@@ -70,6 +76,17 @@ main {
     color: #3cb371;
     font-size: 17px;
     text-decoration: none;
+}
+
+.card-main button{
+    background-color: #2E8B57;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    float: right;
 }
 
 footer{
